@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D257F410-2007-4345-BD59-B4B8B3B63822}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EQOA_Savestate_Program.My.MyApplication</StartupObject>
+    <RootNamespace>EQOA_Savestate_Program</RootNamespace>
+    <AssemblyName>EQOA Savestate Program</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EQOA Savestate Program.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EQOA Savestate Program.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CEKey.vb" />
+    <Compile Include="CommonLibrary.vb" />
+    <Compile Include="FAPIConnectionManager.vb" />
+    <Compile Include="FilePath.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kairen_Main.Designer.vb">
+      <DependentUpon>Kairen_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kairen_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kaires.Designer.vb">
+      <DependentUpon>Kaires.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kaires.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.vb">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OnlineForm.Designer.vb">
+      <DependentUpon>OnlineForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceFileClass.vb" />
+    <Compile Include="RI.vb" />
+    <Compile Include="TCPManager.vb" />
+    <Compile Include="TextFileClass.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kairen_Main.resx">
+      <DependentUpon>Kairen_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kaires.resx">
+      <DependentUpon>Kaires.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineForm.resx">
+      <DependentUpon>OnlineForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Aloj_Tilsteran.txt2" />
+    <None Include="Resources\Angry_Patron.txt2" />
+    <None Include="Resources\an_undead_mammoth.txt2" />
+    <None Include="Resources\Arch_Familiar.txt2" />
+    <None Include="Resources\Area.lua" />
+    <None Include="Resources\a_badger.txt2" />
+    <None Include="Resources\Bowyer_Koll.txt2" />
+    <None Include="Resources\Box1.lua" />
+    <None Include="Resources\Box2.lua" />
+    <None Include="Resources\Coachman_Ronks.txt2" />
+    <None Include="Resources\Dr_Killian.txt2" />
+    <None Include="Resources\DualBox.CT" />
+    <None Include="Resources\FAPI.lua" />
+    <None Include="Resources\File Paths.lua" />
+    <None Include="Resources\Finalquestt.txt2" />
+    <None Include="Resources\Ghost.lua" />
+    <None Include="Resources\Guard_Jahn.txt2" />
+    <None Include="Resources\Guard_Perinen.txt2" />
+    <None Include="Resources\Guard_Saolen.txt2" />
+    <None Include="Resources\Guard_Serenda.txt2" />
+    <None Include="Resources\Locations.lua" />
+    <None Include="Resources\Main Table.CT" />
+    <None Include="Resources\Main.CT" />
+    <None Include="Resources\Main.lua" />
+    <None Include="Resources\MainTable.CT" />
+    <None Include="Resources\Manoarmz.txt2" />
+    <None Include="Resources\Marona_Jofranka.txt2" />
+    <None Include="Resources\Merchant_Ahkham.txt2" />
+    <None Include="Resources\Merchant_Kari.txt2" />
+    <None Include="Resources\NPC Maker.lua" />
+    <None Include="Resources\NPC.lua" />
+    <None Include="Resources\Nukenurplace.txt2" />
+    <None Include="Resources\Raam.txt2" />
+    <None Include="Resources\Royce_Tilsteran.txt2" />
+    <None Include="Resources\Settings_NPCMaker.lua" />
+    <None Include="Resources\sign_post.txt2" />
+    <None Include="Resources\Tailor_Bariston.txt2" />
+    <None Include="Resources\Tailor_Zixar.txt2" />
+    <None Include="Resources\Version.txt2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_post.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcsx2-r3878.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Freeport_Coach.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coachman_Ronks.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phantom9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64x64.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

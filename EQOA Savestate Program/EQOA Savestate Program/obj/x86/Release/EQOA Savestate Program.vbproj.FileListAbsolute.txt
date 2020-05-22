@@ -1,0 +1,9 @@
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\bin\Release\EQOA Savestate Program.exe
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\bin\Release\EQOA Savestate Program.pdb
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\bin\Release\EQOA Savestate Program.xml
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA_Savestate_Program.Form1.resources
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA_Savestate_Program.Resources.resources
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA Savestate Program.vbproj.GenerateResource.Cache
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA Savestate Program.exe
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA Savestate Program.xml
+C:\Users\Kaynewihza\Documents\Visual Studio 2010\Projects\EQOA Savestate Program\EQOA Savestate Program\obj\x86\Release\EQOA Savestate Program.pdb

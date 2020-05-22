@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EQOASavestateProgram
+</name>
+</assembly>
+<members>
+<member name="P:EQOA_Savestate_Program.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Aloj_Tilsteran">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Bowyer_Koll">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Box1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Box2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Coachman_Ronks">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Dr__Killian">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.DualBox">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.File_Paths">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Guard_Jahn">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Guard_Saolen">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Locations">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Main">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.MainTable">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Merchant_Kari">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Tailor_Bariston">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EQOA_Savestate_Program.My.Resources.Resources.Tailor_Zixar">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:EQOA_Savestate_Program.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:EQOA_Savestate_Program.Form1.Right(System.String,System.Int32)">
+	<summary>
+ Returns characters from the right end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member><member name="M:EQOA_Savestate_Program.Form1.Left(System.String,System.Int32)">
+	<summary>
+ Returns characters from the left end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member>
+</members>
+</doc>
